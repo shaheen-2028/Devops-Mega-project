@@ -1,2 +1,6 @@
+VulnerabilityExample.class
 com\dmancloud\dinesh\demoapp\DemoAppController.class
+HotspotExample.class
+BugExample.class
+CodeSmellExample.class
 com\dmancloud\dinesh\demoapp\DemoappApplication.class
