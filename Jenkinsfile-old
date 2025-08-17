@@ -52,6 +52,7 @@ pipeline{
                 sh "mvn sonar:sonar \
                       -Dsonar.projectKey=Devops-Mega-project \
                       -Dsonar.projectName='Devops Mega Project' \
+                      -Dsonar.sources=src/main/java/com/dmancloud/dinesh/demoapp/issues
                       -Dsonar.login=$SONAR_AUTH_TOKEN"
             }
         }
